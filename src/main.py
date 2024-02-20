@@ -27,10 +27,10 @@ def job():
 
 #  Programación del cronograma para ejecución automática del trabajo
 
-schedule.every().monday.at("8:00").do(job)
-schedule.every().tuesday.at("8:00").do(job)
-schedule.every().wednesday.at("8:00").do(job)
-schedule.every().thursday.at("8:00").do(job)
+schedule.every().monday.at("08:00").do(job)
+schedule.every().tuesday.at("08:00").do(job)
+schedule.every().wednesday.at("08:00").do(job)
+schedule.every().thursday.at("08:00").do(job)
 
 
 # Bucle principal para ejecutar la planificación
