@@ -9,10 +9,10 @@ def enviar_correo():
         # Configuración del servidor SMTP y credenciales
         smtp_server = 'smtp.office365.com'
         smtp_port = 587
-        smtp_username = 'walter.iruegas@outlook.com'
-        smtp_password = 'retlawcinder91'
-        from_email = 'walter.iruegas@outlook.com'
-        to_email = 'Bertin.garcia@reconext.com'
+        smtp_username = 'ejemplos@outlook.com'
+        smtp_password = '************'
+        from_email = 'ejemplo@outlook.com'
+        to_email = 'ejemplo@reconext.com'
         
         
         # Crear el mensaje de correo electrónico
